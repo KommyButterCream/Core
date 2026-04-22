@@ -1,5 +1,5 @@
 # Core
-Common StaticLibrary
+Common Static Library
 
 # Info
 A high-performance C/C++/Win32 core utility library for my project.
