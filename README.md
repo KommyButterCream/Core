@@ -1,1 +1,1 @@
-# Internal-StaticLibrary-Common
+Common StaticLibrary
