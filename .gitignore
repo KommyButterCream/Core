@@ -1,0 +1,42 @@
+# Visual Studio local state
+.vs/
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+
+# Build output directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+ipch/
+
+# MSBuild and compiler intermediates
+*.obj
+*.iobj
+*.pch
+*.ipdb
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.tmp
+*.log
+
+# Binaries and libraries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Test and profiling outputs
+*.coverage
+*.coveragexml
+
+# Generated caches
+*.cache

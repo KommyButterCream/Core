@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e3bd70c4-fc37-4703-9a54-152fd00bdea2}</ProjectGuid>
+    <RootNamespace>Core</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImageType\ImageBase.cpp" />
+    <ClCompile Include="..\ImageType\Image_8U_C1.cpp" />
+    <ClCompile Include="..\ImageType\Image_8U_C2.cpp" />
+    <ClCompile Include="..\ImageType\Image_8U_C3.cpp" />
+    <ClCompile Include="..\ImageType\Image_8U_C4.cpp" />
+    <ClCompile Include="..\ShapeType\Circle2d.cpp" />
+    <ClCompile Include="..\ShapeType\Circle2f.cpp" />
+    <ClCompile Include="..\ShapeType\Ellipse2d.cpp" />
+    <ClCompile Include="..\ShapeType\Ellipse2f.cpp" />
+    <ClCompile Include="..\ShapeType\Line2d.cpp" />
+    <ClCompile Include="..\ShapeType\Line2f.cpp" />
+    <ClCompile Include="..\ShapeType\Line2i.cpp" />
+    <ClCompile Include="..\ShapeType\Point2d.cpp" />
+    <ClCompile Include="..\ShapeType\Point2f.cpp" />
+    <ClCompile Include="..\ShapeType\Point2i.cpp" />
+    <ClCompile Include="..\ShapeType\Point3d.cpp" />
+    <ClCompile Include="..\ShapeType\Point3f.cpp" />
+    <ClCompile Include="..\ShapeType\Point3i.cpp" />
+    <ClCompile Include="..\ShapeType\Point4d.cpp" />
+    <ClCompile Include="..\ShapeType\Point4f.cpp" />
+    <ClCompile Include="..\ShapeType\Point4i.cpp" />
+    <ClCompile Include="..\ShapeType\Polygon2f.cpp" />
+    <ClCompile Include="..\ShapeType\Polyline2f.cpp" />
+    <ClCompile Include="..\ShapeType\QuadRect2d.cpp" />
+    <ClCompile Include="..\ShapeType\QuadRect2f.cpp" />
+    <ClCompile Include="..\ShapeType\QuadRect2i.cpp" />
+    <ClCompile Include="..\ShapeType\Rect2d.cpp" />
+    <ClCompile Include="..\ShapeType\Rect2f.cpp" />
+    <ClCompile Include="..\ShapeType\Rect2i.cpp" />
+    <ClCompile Include="..\ShapeType\RotatedRect2d.cpp" />
+    <ClCompile Include="..\ShapeType\RotatedRect2f.cpp" />
+    <ClCompile Include="..\ShapeType\RotatedRect2i.cpp" />
+    <ClCompile Include="..\ShapeType\Size2d.cpp" />
+    <ClCompile Include="..\ShapeType\Size2f.cpp" />
+    <ClCompile Include="..\ShapeType\Size2i.cpp" />
+    <ClCompile Include="..\Util\Logger.cpp" />
+    <ClCompile Include="..\Windows\WindowBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Concurrency\ThreadBase.h" />
+    <ClInclude Include="..\Concurrency\ThreadTimer.h" />
+    <ClInclude Include="..\DirectX\DxSafeRelease.h" />
+    <ClInclude Include="..\ImageType\ImageBase.h" />
+    <ClInclude Include="..\ImageType\Image_8U_C1.h" />
+    <ClInclude Include="..\ImageType\Image_8U_C2.h" />
+    <ClInclude Include="..\ImageType\Image_8U_C3.h" />
+    <ClInclude Include="..\ImageType\Image_8U_C4.h" />
+    <ClInclude Include="..\ShapeType\Circle2d.h" />
+    <ClInclude Include="..\ShapeType\Circle2f.h" />
+    <ClInclude Include="..\ShapeType\Ellipse2d.h" />
+    <ClInclude Include="..\ShapeType\Ellipse2f.h" />
+    <ClInclude Include="..\ShapeType\Line2d.h" />
+    <ClInclude Include="..\ShapeType\Line2f.h" />
+    <ClInclude Include="..\ShapeType\Line2i.h" />
+    <ClInclude Include="..\ShapeType\Point2d.h" />
+    <ClInclude Include="..\ShapeType\Point2f.h" />
+    <ClInclude Include="..\ShapeType\Point2i.h" />
+    <ClInclude Include="..\ShapeType\Point3d.h" />
+    <ClInclude Include="..\ShapeType\Point3f.h" />
+    <ClInclude Include="..\ShapeType\Point3i.h" />
+    <ClInclude Include="..\ShapeType\Point4d.h" />
+    <ClInclude Include="..\ShapeType\Point4f.h" />
+    <ClInclude Include="..\ShapeType\Point4i.h" />
+    <ClInclude Include="..\ShapeType\Polygon2f.h" />
+    <ClInclude Include="..\ShapeType\Polyline2f.h" />
+    <ClInclude Include="..\ShapeType\QuadRect2d.h" />
+    <ClInclude Include="..\ShapeType\QuadRect2f.h" />
+    <ClInclude Include="..\ShapeType\QuadRect2i.h" />
+    <ClInclude Include="..\ShapeType\Rect2d.h" />
+    <ClInclude Include="..\ShapeType\Rect2f.h" />
+    <ClInclude Include="..\ShapeType\Rect2i.h" />
+    <ClInclude Include="..\ShapeType\RotatedRect2d.h" />
+    <ClInclude Include="..\ShapeType\RotatedRect2f.h" />
+    <ClInclude Include="..\ShapeType\RotatedRect2i.h" />
+    <ClInclude Include="..\ShapeType\ShapeTypeBase.h" />
+    <ClInclude Include="..\ShapeType\Size2d.h" />
+    <ClInclude Include="..\ShapeType\Size2f.h" />
+    <ClInclude Include="..\ShapeType\Size2i.h" />
+    <ClInclude Include="..\Sync\SRWLockGuard.h" />
+    <ClInclude Include="..\Util\Logger.h" />
+    <ClInclude Include="..\Windows\WindowBase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

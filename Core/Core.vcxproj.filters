@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Concurrency">
+      <UniqueIdentifier>{efbacd98-f15a-4a76-b2b2-66a24f7955cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{bc882182-9781-4334-9e68-51d9b0adabbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImageType">
+      <UniqueIdentifier>{00d63397-9bf8-4802-8f24-4703e424a7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{23a7b73e-bfcd-4d0b-ad65-8f4024628413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a1ea1566-12a7-452c-97f3-3468c81402c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sync">
+      <UniqueIdentifier>{b15326b4-f72c-481f-87b9-097b5f24094e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{a728c167-6190-4c5b-981a-43605d072570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{053b056c-967c-4a3a-8719-9349380935e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShapeType">
+      <UniqueIdentifier>{2f420c00-ad46-44fb-9b1d-03ed40d816c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ImageType\Image_8U_C1.cpp">
+      <Filter>ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageType\Image_8U_C2.cpp">
+      <Filter>ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageType\Image_8U_C3.cpp">
+      <Filter>ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageType\Image_8U_C4.cpp">
+      <Filter>ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ImageType\ImageBase.cpp">
+      <Filter>ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Logger.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Circle2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Circle2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Ellipse2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Ellipse2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Line2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Line2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Line2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point3d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point3f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point3i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point4d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point4f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Point4i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Polygon2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Polyline2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\QuadRect2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\QuadRect2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\QuadRect2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Rect2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Rect2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Rect2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\RotatedRect2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\RotatedRect2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\RotatedRect2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Size2d.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Size2f.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ShapeType\Size2i.cpp">
+      <Filter>ShapeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Windows\WindowBase.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Concurrency\ThreadBase.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Concurrency\ThreadTimer.h">
+      <Filter>Concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DirectX\DxSafeRelease.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\Image_8U_C1.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\Image_8U_C2.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\Image_8U_C3.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\Image_8U_C4.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\ImageBase.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Logger.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Circle2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Circle2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Ellipse2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Ellipse2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Line2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Line2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Line2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point3d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point3f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point3i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point4d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point4f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point4i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Polygon2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Polyline2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\QuadRect2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\QuadRect2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\QuadRect2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Rect2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Rect2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Rect2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\RotatedRect2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\RotatedRect2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\RotatedRect2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\ShapeTypeBase.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Size2d.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Size2f.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Size2i.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Windows\WindowBase.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sync\SRWLockGuard.h">
+      <Filter>Sync</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
