@@ -5,7 +5,7 @@
 #include "../Sync/SRWLockGuard.h"
 
 using Core::Util::Logger;
-using CoreLibrary::Sync::SRWWriteLockGuard;
+using Core::Sync::SRWWriteLockGuard;
 
 LogLevel Logger::GetLogLevel()
 {

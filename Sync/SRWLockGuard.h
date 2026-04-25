@@ -6,7 +6,7 @@
 
 #include <Windows.h>
 
-namespace CoreLibrary
+namespace Core
 {
 	namespace Sync
 	{
