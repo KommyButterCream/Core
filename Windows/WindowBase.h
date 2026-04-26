@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>
@@ -21,9 +21,9 @@ namespace Core
 			inline bool IsValid() const { return (m_hWnd && ::IsWindow(m_hWnd)); }
 
 		protected:
-			inline bool Register(LPCWSTR className, HINSTANCE hInstance, UINT classStyle = CS_HREDRAW | CS_VREDRAW | CS_OWNDC);
+			bool Register(LPCWSTR className, HINSTANCE hInstance, UINT classStyle = CS_HREDRAW | CS_VREDRAW | CS_OWNDC);
 
-			inline bool Create(
+			bool Create(
 				DWORD exStyle,
 				LPCWSTR className,
 				LPCWSTR windowName,
@@ -43,3 +43,4 @@ namespace Core
 		};
 	}
 }
+
