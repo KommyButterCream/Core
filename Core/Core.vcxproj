@@ -129,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\DirectX\DxDebugUtils.cpp" />
     <ClCompile Include="..\ImageType\ImageBase.cpp" />
     <ClCompile Include="..\ImageType\Image_8U_C1.cpp" />
     <ClCompile Include="..\ImageType\Image_8U_C2.cpp" />
@@ -170,6 +171,7 @@
   <ItemGroup>
     <ClInclude Include="..\Concurrency\ThreadBase.h" />
     <ClInclude Include="..\Concurrency\ThreadTimer.h" />
+    <ClInclude Include="..\DirectX\DxDebugUtils.h" />
     <ClInclude Include="..\DirectX\DxSafeRelease.h" />
     <ClInclude Include="..\ImageType\ImageBase.h" />
     <ClInclude Include="..\ImageType\Image_8U_C1.h" />
