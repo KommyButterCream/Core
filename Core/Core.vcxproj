@@ -211,6 +211,7 @@
     <ClInclude Include="..\ShapeType\Size2i.h" />
     <ClInclude Include="..\Sync\SRWLockGuard.h" />
     <ClInclude Include="..\Util\Logger.h" />
+    <ClInclude Include="..\Util\MathUtil.h" />
     <ClInclude Include="..\Windows\WindowBase.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

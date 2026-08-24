@@ -275,5 +275,8 @@
     <ClInclude Include="..\DirectX\DxDebugUtils.h">
       <Filter>DirectX</Filter>
     </ClInclude>
+    <ClInclude Include="..\Util\MathUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
