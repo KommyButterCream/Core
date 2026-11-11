@@ -48,96 +48,6 @@
     <ClCompile Include="..\Util\Logger.cpp">
       <Filter>Util</Filter>
     </ClCompile>
-    <ClCompile Include="..\ShapeType\Circle2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Circle2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Ellipse2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Ellipse2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Line2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Line2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Line2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point3d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point3f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point3i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point4d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point4f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Point4i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Polygon2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Polyline2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\QuadRect2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\QuadRect2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\QuadRect2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Rect2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Rect2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Rect2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\RotatedRect2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\RotatedRect2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\RotatedRect2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Size2d.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Size2f.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ShapeType\Size2i.cpp">
-      <Filter>ShapeType</Filter>
-    </ClCompile>
     <ClCompile Include="..\Windows\WindowBase.cpp">
       <Filter>Windows</Filter>
     </ClCompile>
@@ -176,99 +86,6 @@
     <ClInclude Include="..\Util\Logger.h">
       <Filter>Util</Filter>
     </ClInclude>
-    <ClInclude Include="..\ShapeType\Circle2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Circle2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Ellipse2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Ellipse2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Line2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Line2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Line2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point3d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point3f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point3i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point4d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point4f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Point4i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Polygon2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Polyline2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\QuadRect2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\QuadRect2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\QuadRect2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Rect2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Rect2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Rect2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\RotatedRect2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\RotatedRect2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\RotatedRect2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\ShapeTypeBase.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Size2d.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Size2f.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ShapeType\Size2i.h">
-      <Filter>ShapeType</Filter>
-    </ClInclude>
     <ClInclude Include="..\Windows\WindowBase.h">
       <Filter>Windows</Filter>
     </ClInclude>
@@ -280,6 +97,57 @@
     </ClInclude>
     <ClInclude Include="..\Util\MathUtil.h">
       <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Size2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Circle2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Ellipse2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Line2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point3.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Point4.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Polygon.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\PolygonView.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Polyline.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\PolylineView.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\PolyShape.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\PolyShapeView.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\QuadRect2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\Rect2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\RotatedRect2.h">
+      <Filter>ShapeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ShapeType\ShapeTypeBase.h">
+      <Filter>ShapeType</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

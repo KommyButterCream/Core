@@ -4,7 +4,7 @@
 #include <memory.h>
 #include <stdlib.h>
 
-#include "../ShapeType/Rect2i.h"
+#include "../ShapeType/Rect2.h"
 
 enum class PixelType : uint8_t
 {

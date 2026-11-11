@@ -1,5 +1,5 @@
 ﻿#include "Image_8U_C3.h"
-#include "../ShapeType/Rect2i.h"
+#include "../ShapeType/Rect2.h"
 
 using Core::ImageType::ImageBase;
 using Core::ImageType::Image_8U_C3;
