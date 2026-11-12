@@ -132,11 +132,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\DirectX\DxDebugUtils.cpp" />
-    <ClCompile Include="..\ImageType\ImageBase.cpp" />
-    <ClCompile Include="..\ImageType\Image_8U_C1.cpp" />
-    <ClCompile Include="..\ImageType\Image_8U_C2.cpp" />
-    <ClCompile Include="..\ImageType\Image_8U_C3.cpp" />
-    <ClCompile Include="..\ImageType\Image_8U_C4.cpp" />
     <ClCompile Include="..\Util\Logger.cpp" />
     <ClCompile Include="..\Windows\WindowBase.cpp" />
   </ItemGroup>
@@ -146,11 +141,6 @@
     <ClInclude Include="..\Concurrency\WaitableTimer.h" />
     <ClInclude Include="..\DirectX\DxDebugUtils.h" />
     <ClInclude Include="..\DirectX\DxSafeRelease.h" />
-    <ClInclude Include="..\ImageType\ImageBase.h" />
-    <ClInclude Include="..\ImageType\Image_8U_C1.h" />
-    <ClInclude Include="..\ImageType\Image_8U_C2.h" />
-    <ClInclude Include="..\ImageType\Image_8U_C3.h" />
-    <ClInclude Include="..\ImageType\Image_8U_C4.h" />
     <ClInclude Include="..\Sync\SRWLockGuard.h" />
     <ClInclude Include="..\Util\Logger.h" />
     <ClInclude Include="..\Util\MathUtil.h" />
@@ -177,5 +167,10 @@
     <ClInclude Include="..\ShapeType\RotatedRect2.h" />
     <ClInclude Include="..\ShapeType\ShapeTypeBase.h" />
     <ClInclude Include="..\ShapeType\Size2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImageType\ImageTypeBase.h" />
+    <ClInclude Include="..\ImageType\ImageView.h" />
+    <ClInclude Include="..\ImageType\Image.h" />
   </ItemGroup>
 </Project>

@@ -47,3 +47,7 @@ ipch/
 
 # Local backups
 /backup/
+
+# Local documentation and samples
+/docs/
+/samples/

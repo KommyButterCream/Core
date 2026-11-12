@@ -30,21 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ImageType\Image_8U_C1.cpp">
-      <Filter>ImageType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ImageType\Image_8U_C2.cpp">
-      <Filter>ImageType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ImageType\Image_8U_C3.cpp">
-      <Filter>ImageType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ImageType\Image_8U_C4.cpp">
-      <Filter>ImageType</Filter>
-    </ClCompile>
-    <ClCompile Include="..\ImageType\ImageBase.cpp">
-      <Filter>ImageType</Filter>
-    </ClCompile>
     <ClCompile Include="..\Util\Logger.cpp">
       <Filter>Util</Filter>
     </ClCompile>
@@ -67,21 +52,6 @@
     </ClInclude>
     <ClInclude Include="..\DirectX\DxSafeRelease.h">
       <Filter>DirectX</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ImageType\Image_8U_C1.h">
-      <Filter>ImageType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ImageType\Image_8U_C2.h">
-      <Filter>ImageType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ImageType\Image_8U_C3.h">
-      <Filter>ImageType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ImageType\Image_8U_C4.h">
-      <Filter>ImageType</Filter>
-    </ClInclude>
-    <ClInclude Include="..\ImageType\ImageBase.h">
-      <Filter>ImageType</Filter>
     </ClInclude>
     <ClInclude Include="..\Util\Logger.h">
       <Filter>Util</Filter>
@@ -148,6 +118,17 @@
     </ClInclude>
     <ClInclude Include="..\ShapeType\ShapeTypeBase.h">
       <Filter>ShapeType</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ImageType\ImageTypeBase.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\ImageView.h">
+      <Filter>ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ImageType\Image.h">
+      <Filter>ImageType</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
